@@ -6,8 +6,8 @@
     "source.organizeImports": "never"
   },
   // prettier の設定
-  "prettier.configPath": "./frontend/app/.prettierrc",
-  "prettier.ignorePath": "./frontend/app/.prettierignore",
+  "prettier.configPath": "./.prettierrc",
+  "prettier.ignorePath": "./.prettierignore",
   "prettier.requireConfig": true,
   // eslint の設定
   "eslint.enable": true,

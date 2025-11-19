@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  // prettier の設定
+  "prettier.configPath": "./frontend/app/.prettierrc",
+  "prettier.ignorePath": "./frontend/app/.prettierignore",
+  "prettier.requireConfig": true,
+  // eslint の設定
+  "eslint.enable": true,
+  "eslint.useFlatConfig": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "css.lint.unknownAtRules": "ignore"
+}
